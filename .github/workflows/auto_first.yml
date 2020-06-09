@@ -31,6 +31,6 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./  myfirstbootfahad.surge.sh --token "f8c0af3e87a5d7578d4341bb74df27bd"
+      run: surge ./ myfirstbootfahad.surge.sh --token "f8c0af3e87a5d7578d4341bb74df27bd"
       
 
